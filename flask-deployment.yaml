@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: haywire2210/todo-list:v2
+        image: youssefben1999/your-app:latest
         livenessProbe:
                   httpGet:
                     path: /healthz
@@ -43,3 +43,7 @@ spec:
     rollingUpdate:
       maxUnavailable: 1
       maxSurge: 1
+
+
+
+
